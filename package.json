@@ -1,0 +1,68 @@
+{
+  "name": "soap-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reach/accordion": "^0.16.1",
+    "@reach/tabs": "^0.16.4",
+    "@stripe/react-stripe-js": "^1.7.0",
+    "@stripe/stripe-js": "^1.22.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "aos": "^2.3.4",
+    "axios": "^0.24.0",
+    "formik": "^2.2.9",
+    "pure-react-carousel": "^1.27.8",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-fast-marquee": "^1.2.1",
+    "react-icons": "^4.3.1",
+    "react-images-upload": "^1.2.8",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "react-stripe-checkout": "^2.6.3",
+    "react-toastify": "^8.1.0",
+    "react-tsparticles": "^1.38.0",
+    "sass": "^1.48.0",
+    "swiper": "^6.3.5",
+    "web-vitals": "^1.1.2",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "npm run watch:css && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "watch:css": "postcss src/styles/index.css -o src/styles/output.css",
+    "dev": "concurrently \" npm run watch:css -- -w\" \"npm start\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.4.0",
+    "autoprefixer": "^10.4.0",
+    "concurrently": "^6.4.0",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.0.2",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.0.0"
+  }
+}
